@@ -2,7 +2,7 @@ public class SlantedRectangleTest {
 
     // Classe Rectangle
     static class Rectangle {
-        protected double x, y; // Coordonnées du coin supérieur gauche
+        protected double x, y; // Coordonnées du coin superieur gauche
         protected double largeur, hauteur; // Largeur et hauteur
 
         public Rectangle(double x, double y, double largeur, double hauteur) {

@@ -1,3 +1,5 @@
+// exercice 1 et 2
+
 public class SlantedRectangleTest {
 
     // Classe Rectangle

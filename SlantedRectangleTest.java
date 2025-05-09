@@ -47,6 +47,7 @@ public class SlantedRectangleTest {
         @Override
         public String toString() {
             return "SlantedRectangle[x=" + x + ", y=" + y + ", largeur =" + largeur + ", hauteur=" + hauteur + ", angle=" + angle + "°]";
+            //return "[ angle = " + angle + "]";
         }
     }
 

@@ -1,0 +1,7 @@
+1 -Oui nous pouvons stocker des "SlantedRectangle" dans Dessin.
+En effet "SlantedRectangle" hérite de "Rectangle". Une référence de type
+Rectangle peut désigner un objet SlantedRectangle.
+
+2-Surface() : oui SlantedRectangle l' hérite de Rectangle
+contains () : non, il n'est même défini dans la classe Dessin
+null () : oui, mais devra être revue pour traiter l'inclinaison.

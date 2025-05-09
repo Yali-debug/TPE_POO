@@ -1,0 +1,35 @@
+Exercie 8
+void f(A o) dans A
+void f(A o) dans A
+void f(A o) dans A
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+
+Exercice 9
+il s'agit d'une surchage car les signatures sont différentes
+Après compilation elle affiche le même résultat précédent;
+
+Exercice 10
+SUrcharge (même nom mais type paramètre différent)
+Après compilation même résultat que l'exercice 8
+void f(A o) dans A
+void f(A o) dans A
+void f(A o) dans A  // mieux accessible et mieux adapté
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+void f(A o) dans B
+
+Exercice 11
+true
+true
+true
+false
+true
+true

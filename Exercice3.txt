@@ -1,0 +1,3 @@
+La classe SlantedRectangle hérite des méthodes getOriginGauche(), getWidth(), getHeight(),
+surface (), translate (), sameAs(Rectangle). Elle hérite également de la méthode contains(Point) qui peut poser un problème
+car l'inclinaison rend la géométire complexe.

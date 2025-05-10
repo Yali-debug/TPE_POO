@@ -1,4 +1,8 @@
-Exercie 8
+Exercie 8 
+
+le code départ illustre le polymorphisme et la liaison dynamique en java.
+voici l'affichage final de ce fragment de code !!!
+ 
 void f(A o) dans A
 void f(A o) dans A
 void f(A o) dans A

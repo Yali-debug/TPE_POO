@@ -44,7 +44,7 @@ public class SlantedRectangle extends Rectangle {
     
     @Override
     public boolean equals (Object o) {
-        if (!(o instanceof SlantedRectangle)) return false; // Exercice 7
+        if (!(o instanceof SlantedRectangle)) return false; // Exercice 7 classe SlantedRectangle
         SlantedRectangle s = (SlantedRectangle)o;
         return super.equals(s) && angle == s.angle;
     }

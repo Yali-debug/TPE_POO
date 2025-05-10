@@ -1,14 +1,20 @@
+// La logique est similaire à celle de `Rectangle`, mais elle inclura les attributs spécifiques à
+`SlantedRectangle`, comme l'angle d'inclinaison, en plus de ceux hérités ou possédés par
+un rectangle de base.
+
 @Override
     public boolean equals (Object o) {
-        if (!(o instanceof SlantedRectangle)) return false; // Exercice 7
+        if (!(o instanceof SlantedRectangle)) return false; // Exercice 7 classes SlantedRectangle
         SlantedRectangle s = (SlantedRectangle)o;
         return super.equals(s) && angle == s.angle;
     }
+// La méthode `equals` devrait comparer les attributs qui définissent un rectangle.
+En supposant qu'un `Rectangle` est défini par un point et ses dimensions.
 
 @Override
     public boolean equals (Object o) {
         if (!(o instanceof Rectangle)) return false;
         Rectangle r = (Rectangle)o;
-        return getOriginGauche().equals(r.getOriginGauche()) && getWidth() == r.getWidth() // EXERCICE 7 
+        return getOriginGauche().equals(r.getOriginGauche()) && getWidth() == r.getWidth() // EXERCICE 7 classes rectangle
                 && getHeight() == r.getHeight();
     }
